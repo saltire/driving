@@ -1,1 +1,4 @@
-camera_set_view_mat(view_camera[0], matrix_build_lookat(room_width / 2, room_height / 2, -1000, room_width / 2, room_height / 2, 0, 0, 1, 0));
+x = cameratarget.x;
+y = cameratarget.y;
+
+camera_set_view_mat(view_camera[0], matrix_build_lookat(x, y, -1000, x, y, 0, 0, 1, 0));

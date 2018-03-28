@@ -1,3 +1,4 @@
+display_reset(2, true);
 gpu_set_alphatestenable(true);
 gpu_set_texfilter(true);
 gpu_set_ztestenable(true);
@@ -5,6 +6,7 @@ gpu_set_zwriteenable(true);
 
 camera = camera_create();
 camera_set_proj_mat(camera, matrix_build_projection_perspective_fov(45, view_wport[0] / view_hport[0], 1, 32000));
+camera_set_view_mat(camera, matrix_build_lookat(0, 0, -1000, 0, 0, 0, 0, 1, 0));
 camera_set_update_script(camera, camera_update);
 
 view_enabled = true;
