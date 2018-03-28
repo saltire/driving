@@ -1,3 +1,6 @@
+var square = global.square;
+var size = global.size;
+
 // north
 if !position_meeting(cx, cy - size, obj_cube) {
 	matrix_set(matrix_world, matrix_n);

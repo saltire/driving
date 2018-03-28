@@ -17,9 +17,40 @@ z = -500;
 move = 5;
 
 
+var size = 32;
+
 vertex_format_begin();
 vertex_format_add_position_3d();
 vertex_format_add_normal();
 vertex_format_add_color();
 vertex_format_add_texcoord();
-global.vertex_format = vertex_format_end();
+var vertex_format = vertex_format_end();
+
+var square = vertex_create_buffer();
+
+vertex_begin(square, vertex_format);
+
+vertex_position_3d(square, 0, 0, 0);
+vertex_normal(square, 0, 0, -1);
+vertex_color(square, c_white, 1);
+vertex_texcoord(square, 0, 0);
+
+vertex_position_3d(square, size, 0, 0);
+vertex_normal(square, 0, 0, -1);
+vertex_color(square, c_white, 1);
+vertex_texcoord(square, 1, 0);
+
+vertex_position_3d(square, 0, size, 0);
+vertex_normal(square, 0, 0, -1);
+vertex_color(square, c_white, 1);
+vertex_texcoord(square, 0, 1);
+
+vertex_position_3d(square, size, size, 0);
+vertex_normal(square, 0, 0, -1);
+vertex_color(square, c_white, 1);
+vertex_texcoord(square, 1, 1);
+
+vertex_end(square);
+
+global.size = size;
+global.square = square;
