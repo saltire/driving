@@ -1,9 +1,17 @@
 size = 64;
-buf = vertex_create_buffer();
-setup = instance_find(camerasetup, 0);
-format = setup.format;
+cx = x + size / 2;
+cy = y + size / 2;
 
-vertex_begin(buf, format);
+matrix_n = matrix_build(x + size, y, -size, -90, 0, 180, 1, 1, 1);
+matrix_s = matrix_build(x, y + size, -size, -90, 0, 0, 1, 1, 1);
+matrix_w = matrix_build(x, y, -size, -90, 0, -90, 1, 1, 1);
+matrix_e = matrix_build(x + size, y + size, -size, -90, 0, 90, 1, 1, 1);
+
+setup = instance_find(camerasetup, 0);
+
+buf = vertex_create_buffer();
+
+vertex_begin(buf, setup.format);
 
 vertex_position_3d(buf, 0, 0, 0);
 vertex_normal(buf, 0, 0, -1);

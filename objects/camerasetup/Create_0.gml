@@ -1,5 +1,6 @@
 display_reset(2, true);
 gpu_set_alphatestenable(true);
+gpu_set_cullmode(cull_counterclockwise);
 gpu_set_texfilter(true);
 gpu_set_ztestenable(true);
 gpu_set_zwriteenable(true);
