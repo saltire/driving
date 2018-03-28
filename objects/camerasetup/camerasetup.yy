@@ -1,28 +1,18 @@
 {
-    "id": "7b1cf28f-ffc2-4be5-b734-9cba19a6a802",
+    "id": "5078c81b-1d8f-492b-b26a-a9861b20418c",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "cube",
+    "name": "camerasetup",
     "eventList": [
         {
-            "id": "967d4626-d142-4ae9-abb5-7ab103395639",
+            "id": "a113d973-3635-4dde-a712-9cf97ee575fd",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "7b1cf28f-ffc2-4be5-b734-9cba19a6a802"
-        },
-        {
-            "id": "10c09f01-64db-47a7-8c57-0102009a80df",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 8,
-            "m_owner": "7b1cf28f-ffc2-4be5-b734-9cba19a6a802"
+            "m_owner": "5078c81b-1d8f-492b-b26a-a9861b20418c"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -43,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "a2949142-2955-4c2f-969a-cfb30e1d837a",
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }
