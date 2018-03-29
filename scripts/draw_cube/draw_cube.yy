@@ -1,8 +1,8 @@
 {
-    "id": "c45a23d4-4e0a-4bda-880c-c6929bb53af0",
+    "id": "5c40075f-4ed4-4eac-b416-f6d779ab5d59",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "camera_update",
+    "name": "draw_cube",
     "IsCompatibility": false,
     "IsDnD": false
 }
