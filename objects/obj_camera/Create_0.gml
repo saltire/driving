@@ -13,8 +13,10 @@ view_enabled = true;
 view_set_visible(0, true);
 view_set_camera(0, camera);
 
+x = obj_car.x;
+y = obj_car.y;
 z = -500;
-move = 5;
+move = .2;
 
 
 // global render variables
