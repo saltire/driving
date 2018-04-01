@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "04af66ff-4677-4004-8912-bd317aa9edf0",
+            "Value": {
+                "id": "b02709f5-459b-45e3-9973-3fd809b166c6",
+                "resourcePath": "sprites\\spr_player\\spr_player.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0842bb39-1d36-4150-9a17-5e299cea3204",
             "Value": {
                 "id": "a6ed4f70-1f5d-43b7-bfdd-a2266659bec5",
@@ -164,6 +172,14 @@
                 "id": "eb72b577-43d5-47f1-97c2-d593903f5ed2",
                 "resourcePath": "scripts\\build_cube_matrices\\build_cube_matrices.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "6bfe4a61-8326-412c-8e68-ba7fe01c4bbd",
+            "Value": {
+                "id": "ede19938-7e97-462d-b600-dc14e65e53cd",
+                "resourcePath": "objects\\obj_player\\obj_player.yy",
+                "resourceType": "GMObject"
             }
         },
         {
