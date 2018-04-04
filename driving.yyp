@@ -55,6 +55,22 @@
             }
         },
         {
+            "Key": "1fdf8f2e-9448-4463-82f3-d63d87636c03",
+            "Value": {
+                "id": "45d62e9f-36c3-4e67-91b1-f4fd76c3ed95",
+                "resourcePath": "scripts\\kill_sideways_speed\\kill_sideways_speed.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "2678dcf8-6981-4992-88e3-76be6bb42d9a",
+            "Value": {
+                "id": "f19d6658-1a42-452c-850b-0a2322e8c097",
+                "resourcePath": "scripts\\car_init\\car_init.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "2e321fe5-340f-48ba-9851-b532f87a13f7",
             "Value": {
                 "id": "48451329-1391-4ad6-ab87-7a82656dfa35",
@@ -106,7 +122,15 @@
             "Key": "49b9bb71-3100-48da-b6cd-1412136a4dbf",
             "Value": {
                 "id": "431878e5-3706-4d64-a2d5-4a6246025372",
-                "resourcePath": "sprites\\spr_car\\spr_car.yy",
+                "resourcePath": "sprites\\spr_car_old\\spr_car_old.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "4fc09443-99aa-4baa-b604-64f6606d79d1",
+            "Value": {
+                "id": "4fc486e3-4409-46f6-898b-f65df717d12d",
+                "resourcePath": "sprites\\spr_wheel\\spr_wheel.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -132,6 +156,14 @@
                 "id": "47490fbc-2a88-4074-bfb9-c75042715904",
                 "resourcePath": "views\/53e83c06-bc29-4539-b921-4410142c9693.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "56a27f60-f2db-47a9-b370-f059fa608548",
+            "Value": {
+                "id": "1713f806-33cf-4e72-af47-6041d6c5cc3c",
+                "resourcePath": "scripts\\car_update\\car_update.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -228,6 +260,22 @@
                 "id": "786a6351-d5bf-46cb-90d3-d6a8da30ea61",
                 "resourcePath": "options\\ios\\options_ios.yy",
                 "resourceType": "GMiOSOptions"
+            }
+        },
+        {
+            "Key": "8ac33d19-7745-4df9-a031-9a6f1c5ffce3",
+            "Value": {
+                "id": "01123114-820c-4396-a24d-24a4a62cdf6c",
+                "resourcePath": "objects\\obj_wheel\\obj_wheel.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "8db78ed3-0961-4d42-88a8-6e65636062bc",
+            "Value": {
+                "id": "32887f8f-81c9-49a4-8a91-49970b82e22b",
+                "resourcePath": "sprites\\spr_car\\spr_car.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -351,6 +399,14 @@
             }
         },
         {
+            "Key": "e93a1cf7-9243-44e4-8724-43737e43efef",
+            "Value": {
+                "id": "b50d594d-3a6e-4635-aa34-41ddaa90aea2",
+                "resourcePath": "scripts\\car_add_wheel\\car_add_wheel.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "eb317444-1380-4d53-a0c2-ca15622d5dc9",
             "Value": {
                 "id": "4f2b9eb0-0c42-4bcf-87d7-e9376c3a9d15",
@@ -386,7 +442,11 @@
     "script_order": [
         "c45a23d4-4e0a-4bda-880c-c6929bb53af0",
         "5c40075f-4ed4-4eac-b416-f6d779ab5d59",
-        "677da66c-90f3-4c13-9e4a-35d1721c8de5"
+        "677da66c-90f3-4c13-9e4a-35d1721c8de5",
+        "2678dcf8-6981-4992-88e3-76be6bb42d9a",
+        "e93a1cf7-9243-44e4-8724-43737e43efef",
+        "56a27f60-f2db-47a9-b370-f059fa608548",
+        "1fdf8f2e-9448-4463-82f3-d63d87636c03"
     ],
     "tutorial": ""
 }
