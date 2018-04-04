@@ -19,28 +19,28 @@ var cx = x_ + size / 2;
 var cy = y_ + size / 2;
 
 // north
-var other_n = collision_point(cx, cy - size, obj_solid, false, false);
+var other_n = collision_point(cx, cy - size, obj_cube, false, false);
 if !other_n or other_n.zcount <= lz {
 	matrix_set(matrix_world, matrices[? "n"]);
 	vertex_submit(square, pr_trianglestrip, texture_side);
 }
 
 // south
-var other_s = collision_point(cx, cy + size, obj_solid, false, false);
+var other_s = collision_point(cx, cy + size, obj_cube, false, false);
 if !other_s or other_s.zcount <= lz {
 	matrix_set(matrix_world, matrices[? "s"]);
 	vertex_submit(square, pr_trianglestrip, texture_side);
 }
 
 // west
-var other_w = collision_point(cx - size, cy, obj_solid, false, false);
+var other_w = collision_point(cx - size, cy, obj_cube, false, false);
 if !other_w or other_w.zcount <= lz {
 	matrix_set(matrix_world, matrices[? "w"]);
 	vertex_submit(square, pr_trianglestrip, texture_side);
 }
 
 // east
-var other_e = collision_point(cx + size, cy, obj_solid, false, false);
+var other_e = collision_point(cx + size, cy, obj_cube, false, false);
 if !other_e or other_e.zcount <= lz {
 	matrix_set(matrix_world, matrices[? "e"]);
 	vertex_submit(square, pr_trianglestrip, texture_side);
