@@ -16,7 +16,10 @@ var obj  = argument4; // the object index that will be used in instance_create
 var i = array_length_1d(wheels);
 
 // create wheel instance
-wheels[i] = instance_create_layer(x + xoff, y + yoff, layer, obj);
+var len = point_distance(0, 0, xoff, yoff);
+var dir = point_direction(0, 0, xoff, yoff) - phy_rotation;
+wheels[i] = instance_create_layer(x + lengthdir_x(len, dir), y + lengthdir_y(len, dir), layer, obj);
+wheels[i].phy_rotation = phy_rotation;
 
 // create revolute joint if wheel is rotatable, prismatic joint if not
 var joint = rot ?
