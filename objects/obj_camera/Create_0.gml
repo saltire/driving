@@ -16,7 +16,9 @@ view_set_camera(0, camera);
 target = obj_player;
 x = target.x;
 y = target.y;
-z = -500;
+ztarget = layer_get_depth("buildings");
+z = ztarget - 500;
+show_debug_message(string(ztarget) + ", " + string(z));
 move = .2;
 
 

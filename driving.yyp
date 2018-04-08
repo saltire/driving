@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "0306c856-ac9a-4e78-ba37-536b52a0ad90",
+            "Value": {
+                "id": "f2c253fb-b5cf-47e6-b5e8-013594f51ddf",
+                "resourcePath": "objects\\obj_grid\\obj_grid.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "04af66ff-4677-4004-8912-bd317aa9edf0",
             "Value": {
                 "id": "b02709f5-459b-45e3-9973-3fd809b166c6",
@@ -84,6 +92,22 @@
                 "id": "2444f989-5b6c-476a-b161-c89327932f32",
                 "resourcePath": "views\/305c4eda-e7c0-4c78-8739-477771f141a3.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "31bdd63f-178c-4dfb-8d7f-6176950f2296",
+            "Value": {
+                "id": "a6355984-c204-4c46-8c59-59ea4cf3497d",
+                "resourcePath": "objects\\obj_blood\\obj_blood.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "327644e7-0ff3-4be3-9a8d-9b15b9507d58",
+            "Value": {
+                "id": "6b3b8f1d-939a-48da-b291-8039661718cc",
+                "resourcePath": "sprites\\spr_ped_npc\\spr_ped_npc.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -215,6 +239,14 @@
             }
         },
         {
+            "Key": "714be317-33c1-4e17-a862-cbb594937e71",
+            "Value": {
+                "id": "38ddf5d5-704c-4453-8276-7fc5fa5c37d3",
+                "resourcePath": "sprites\\spr_blood\\spr_blood.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "750f6b8e-2bea-427a-a30f-9b49f6f6253c",
             "Value": {
                 "id": "85308ac3-f90b-4ade-8fc9-feb59eddef7d",
@@ -260,6 +292,14 @@
                 "id": "786a6351-d5bf-46cb-90d3-d6a8da30ea61",
                 "resourcePath": "options\\ios\\options_ios.yy",
                 "resourceType": "GMiOSOptions"
+            }
+        },
+        {
+            "Key": "85e226e2-afa2-46a1-843d-0eb4952d6b88",
+            "Value": {
+                "id": "3c8354d8-dc0f-435b-b0ac-6f98229d25e5",
+                "resourcePath": "objects\\obj_ped_npc\\obj_ped_npc.yy",
+                "resourceType": "GMObject"
             }
         },
         {
